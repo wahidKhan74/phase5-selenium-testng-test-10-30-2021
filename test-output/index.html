@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-EcomWebapp_Test">
-              <span class="suite-name border-passed">EcomWebapp Test</span>
+              <span class="suite-name border-failed">EcomWebapp Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -56,12 +56,12 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-EcomWebapp_Test">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-EcomWebapp_Test">
-                    <span>0 groups</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">15 methods, 2 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-EcomWebapp_Test" class="hide-methods failed suite-EcomWebapp_Test"> (hide)</a> <!-- hide-methods failed suite-EcomWebapp_Test -->
+                      <a href="#" panel-name="suite-EcomWebapp_Test" class="show-methods failed suite-EcomWebapp_Test"> (show)</a> <!-- show-methods failed suite-EcomWebapp_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-EcomWebapp_Test">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.asserttest.AssertionTest" hash-for-method="hardAssertTest">hardAssertTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.amazon.AmazonNavLinksTest" hash-for-method="testFashionNavLink">testFashionNavLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-EcomWebapp_Test -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +123,32 @@
                     <div class="method-list-content passed suite-EcomWebapp_Test">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.amazon.AmazonNavLinksTest" hash-for-method="testFashionNavLink">testFashionNavLink</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.group.BrowserGroupTest" hash-for-method="closedChrome">closedChrome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.group.BrowserGroupTest" hash-for-method="closedFirefox">closedFirefox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.group.BrowserGroupTest" hash-for-method="lauchChromeTest">lauchChromeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.group.BrowserGroupTest" hash-for-method="lauchFirefoxTest">lauchFirefoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.asserttest.AssertionTest" hash-for-method="softAssertTest">softAssertTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.group.BrowserGroupTest" hash-for-method="testFacebookHomepage">testFacebookHomepage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -114,12 +158,27 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.group.BrowserGroupTest" hash-for-method="testForFaiure">testForFaiure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.amazon.AmazonHomepageTest" hash-for-method="testHompageSourceUrl">testHompageSourceUrl</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.group.BrowserGroupTest" hash-for-method="testHompageSourceUrl">testHompageSourceUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.amazon.AmazonHomepageTest" hash-for-method="testHompageTitle">testHompageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EcomWebapp_Test" title="com.webapp.group.BrowserGroupTest" hash-for-method="testHompageTitle">testHompageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -139,6 +198,125 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-EcomWebapp_Test" class="panel EcomWebapp_Test">
+          <div class="suite-EcomWebapp_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.webapp.asserttest.AssertionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hardAssertTest">
+                  </a> <!-- hardAssertTest -->
+                  <span class="method-name">hardAssertTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.webapp.asserttest.AssertionTest.hardAssertTest(AssertionTest.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcomWebapp_Test-class-failed -->
+          <div class="suite-EcomWebapp_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.webapp.amazon.AmazonNavLinksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFashionNavLink">
+                  </a> <!-- testFashionNavLink -->
+                  <span class="method-name">testFashionNavLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [] but found [Amazon Fashion: Clothing, Footwear and Accessories online for Men, Women and Kids]
+	at com.webapp.amazon.AmazonNavLinksTest.testFashionNavLink(AmazonNavLinksTest.java:61)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcomWebapp_Test-class-failed -->
+          <div class="suite-EcomWebapp_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webapp.asserttest.AssertionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="softAssertTest">
+                  </a> <!-- softAssertTest -->
+                  <span class="method-name">softAssertTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcomWebapp_Test-class-passed -->
+          <div class="suite-EcomWebapp_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webapp.group.BrowserGroupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closedChrome">
+                  </a> <!-- closedChrome -->
+                  <span class="method-name">closedChrome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closedFirefox">
+                  </a> <!-- closedFirefox -->
+                  <span class="method-name">closedFirefox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lauchChromeTest">
+                  </a> <!-- lauchChromeTest -->
+                  <span class="method-name">lauchChromeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lauchFirefoxTest">
+                  </a> <!-- lauchFirefoxTest -->
+                  <span class="method-name">lauchFirefoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFacebookHomepage">
+                  </a> <!-- testFacebookHomepage -->
+                  <span class="method-name">testFacebookHomepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForFaiure">
+                  </a> <!-- testForFaiure -->
+                  <span class="method-name">testForFaiure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHompageSourceUrl">
+                  </a> <!-- testHompageSourceUrl -->
+                  <span class="method-name">testHompageSourceUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHompageTitle">
+                  </a> <!-- testHompageTitle -->
+                  <span class="method-name">testHompageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcomWebapp_Test-class-passed -->
           <div class="suite-EcomWebapp_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -184,13 +362,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testFashionNavLink">
-                  </a> <!-- testFashionNavLink -->
-                  <span class="method-name">testFashionNavLink</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testMobileNavLink">
                   </a> <!-- testMobileNavLink -->
                   <span class="method-name">testMobileNavLink</span>
@@ -219,6 +390,16 @@
       &lt;class name=&quot;com.webapp.facebook.FacebookLoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Facebook Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Group Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.webapp.group.BrowserGroupTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Group Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Assert Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.webapp.asserttest.AssertionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Assert Test --&gt;
 &lt;/suite&gt; &lt;!-- EcomWebapp Test --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -235,6 +416,12 @@
               <li>
                 <span class="test-name">Facebook Test (1 class)</span>
               </li>
+              <li>
+                <span class="test-name">Group Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Assert Test (1 class)</span>
+              </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -243,6 +430,46 @@
             <span class="header-content">Groups for EcomWebapp Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ChromeOnly</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">closedChrome</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">lauchChromeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHompageSourceUrl</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHompageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">FirefoxOnly</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">closedFirefox</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">lauchFirefoxTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFacebookHomepage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testForFaiure</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-EcomWebapp_Test" class="panel">
@@ -259,32 +486,72 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testForFaiure')
 data.setCell(0, 2, 'com.webapp.facebook.FacebookLoginTest')
-data.setCell(0, 3, 25669);
+data.setCell(0, 3, 19516);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testMobileNavLink')
-data.setCell(1, 2, 'com.webapp.amazon.AmazonNavLinksTest')
-data.setCell(1, 3, 6002);
+data.setCell(1, 1, 'testForFaiure')
+data.setCell(1, 2, 'com.webapp.group.BrowserGroupTest')
+data.setCell(1, 3, 19337);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testFashionNavLink')
+data.setCell(2, 1, 'testMobileNavLink')
 data.setCell(2, 2, 'com.webapp.amazon.AmazonNavLinksTest')
-data.setCell(2, 3, 5347);
+data.setCell(2, 3, 5879);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testHompageSourceUrl')
-data.setCell(3, 2, 'com.webapp.amazon.AmazonHomepageTest')
-data.setCell(3, 3, 300);
+data.setCell(3, 1, 'lauchFirefoxTest')
+data.setCell(3, 2, 'com.webapp.group.BrowserGroupTest')
+data.setCell(3, 3, 4677);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testHompageTitle')
-data.setCell(4, 2, 'com.webapp.amazon.AmazonHomepageTest')
-data.setCell(4, 3, 248);
+data.setCell(4, 1, 'lauchChromeTest')
+data.setCell(4, 2, 'com.webapp.group.BrowserGroupTest')
+data.setCell(4, 3, 2607);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testFashionNavLink')
+data.setCell(5, 2, 'com.webapp.amazon.AmazonNavLinksTest')
+data.setCell(5, 3, 1358);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'closedFirefox')
+data.setCell(6, 2, 'com.webapp.group.BrowserGroupTest')
+data.setCell(6, 3, 854);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testHompageSourceUrl')
+data.setCell(7, 2, 'com.webapp.amazon.AmazonHomepageTest')
+data.setCell(7, 3, 464);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testHompageTitle')
+data.setCell(8, 2, 'com.webapp.amazon.AmazonHomepageTest')
+data.setCell(8, 3, 270);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'closedChrome')
+data.setCell(9, 2, 'com.webapp.group.BrowserGroupTest')
+data.setCell(9, 3, 130);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testHompageTitle')
+data.setCell(10, 2, 'com.webapp.group.BrowserGroupTest')
+data.setCell(10, 3, 21);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testHompageSourceUrl')
+data.setCell(11, 2, 'com.webapp.group.BrowserGroupTest')
+data.setCell(11, 3, 19);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFacebookHomepage')
+data.setCell(12, 2, 'com.webapp.group.BrowserGroupTest')
+data.setCell(12, 3, 17);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'softAssertTest')
+data.setCell(13, 2, 'com.webapp.asserttest.AssertionTest')
+data.setCell(13, 3, 4);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'hardAssertTest')
+data.setCell(14, 2, 'com.webapp.asserttest.AssertionTest')
+data.setCell(14, 3, 1);
 window.suiteTableData['EcomWebapp_Test']= { tableData: data, tableDiv: 'times-div-EcomWebapp_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
               <div id="times-div-EcomWebapp_Test">
               </div> <!-- times-div-EcomWebapp_Test -->
             </div> <!-- times-div -->
@@ -317,66 +584,116 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHompageSourceUrl</span>
-                <span class="method-start">4072 ms</span>
+                <span class="method-start">3772 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">4381 ms</span>
+                <span class="method-start">4239 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">4776 ms</span>
+                <span class="method-start">4374 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHompageTitle</span>
-                <span class="method-start">7560 ms</span>
+                <span class="method-start">7097 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">7818 ms</span>
+                <span class="method-start">7369 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.webapp.amazon.AmazonNavLinksTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">8004 ms</span>
+                <span class="method-start">7555 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testFashionNavLink</span>
-                <span class="method-start">11144 ms</span>
+                <span class="method-start">10938 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">16493 ms</span>
+                <span class="method-start">12299 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">16624 ms</span>
+                <span class="method-start">12387 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMobileNavLink</span>
-                <span class="method-start">19394 ms</span>
+                <span class="method-start">15272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">25397 ms</span>
+                <span class="method-start">21152 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.webapp.facebook.FacebookLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">25571 ms</span>
+                <span class="method-start">21338 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForFaiure</span>
-                <span class="method-start">27353 ms</span>
+                <span class="method-start">23139 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">53023 ms</span>
+                <span class="method-start">42656 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webapp.group.BrowserGroupTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">lauchChromeTest</span>
+                <span class="method-start">42781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lauchFirefoxTest</span>
+                <span class="method-start">45389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFacebookHomepage</span>
+                <span class="method-start">50069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHompageTitle</span>
+                <span class="method-start">50093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testForFaiure</span>
+                <span class="method-start">50116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHompageSourceUrl</span>
+                <span class="method-start">69454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closedChrome</span>
+                <span class="method-start">69475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closedFirefox</span>
+                <span class="method-start">69607 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webapp.asserttest.AssertionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">hardAssertTest</span>
+                <span class="method-start">70467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">softAssertTest</span>
+                <span class="method-start">70474 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

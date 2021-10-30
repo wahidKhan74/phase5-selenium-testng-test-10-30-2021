@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webapp.amazon.AmazonNavLinksTest">
+      <class name="com.webapp.asserttest.AssertionTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="testFashionNavLink"/>
-          <include name="afterMethod"/>
+          <include name="hardAssertTest"/>
         </methods>
-      </class> <!-- com.webapp.amazon.AmazonNavLinksTest -->
+      </class> <!-- com.webapp.asserttest.AssertionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,4 +11,16 @@
 			<class name="com.webapp.facebook.FacebookLoginTest"></class>
 		</classes>
 	</test>
+	
+	<test name="Group Test">
+		<classes>
+			<class name="com.webapp.group.BrowserGroupTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Assert Test">
+		<classes>
+			<class name="com.webapp.asserttest.AssertionTest"></class>
+		</classes>
+	</test>
 </suite>
